@@ -6,7 +6,10 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calc = new Calculator();
+            int presons = 3;
+            var price = calc.CalculatePrice(presons);
+            Console.WriteLine($"{presons}: {price}");
         }
     }
 }

@@ -7,9 +7,9 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             var calc = new Calculator();
-            int presons = 3;
-            var price = calc.CalculatePrice(presons);
-            Console.WriteLine($"{presons}: {price}");
+            int persons = 3;
+            var price = calc.CalculatePrice(persons);
+            Console.WriteLine($"{persons}: {price}");
         }
     }
 }

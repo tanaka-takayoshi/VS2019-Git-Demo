@@ -6,7 +6,7 @@ namespace ConsoleApp
 {
     public class Calculator
     {
-        public int PricePerPerson { get; } = 2400;
+        public int PricePerPerson { get; } = 2000;
 
         public int CalculatePrice(int numOfPersons)
         {
